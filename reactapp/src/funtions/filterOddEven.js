@@ -1,7 +1,8 @@
 export const filterOdd=(...arr)=>
 {
     let ans=[];
-    arr.forEach(ele=>{
+    arr.forEach(ele=>
+    {
         if(ele%2!=0)
         {
             ans.push(ele);
@@ -12,7 +13,8 @@ export const filterOdd=(...arr)=>
 export const filterEven=(...arr)=>
 {
     let ans=[];
-    arr.forEach(ele=>{
+    arr.forEach(ele=>
+    {
         if(ele%2==0)
         {
             ans.push(ele);
